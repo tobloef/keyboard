@@ -126,46 +126,49 @@
                         timeout-ms = <30>;
                         key-positions = <2 3>;
                         bindings = <&para>;
+                        layers = <DEFAULT>;
                 };
                 combo_sqbr {
                         timeout-ms = <30>;
                         key-positions = <3 4>;
                         bindings = <&sqbr>;
-                };
-                combo_unused {
-                        timeout-ms = <30>;
-                        key-positions = <7 8>;
-                        bindings = <&kp ESC>;
+                        layers = <DEFAULT>;
                 };
                 combo_slas {
                         timeout-ms = <30>;
                         key-positions = <8 9>;
                         bindings = <&slas>;
+                        layers = <DEFAULT>;
                 };
                 combo_anbr {
                         timeout-ms = <30>;
                         key-positions = <26 27>;
                         bindings = <&anbr>;
+                        layers = <DEFAULT>;
                 };
                 combo_cubr {
                         timeout-ms = <30>;
                         key-positions = <27 28>;
                         bindings = <&cubr>;
+                        layers = <DEFAULT>;
                 };
                 combo_unda {
                         timeout-ms = <30>;
                         key-positions = <31 32>;
                         bindings = <&unda>;
+                        layers = <DEFAULT>;
                 };
                 combo_caps_word {
                         timeout-ms = <30>;
                         key-positions = <32 33>;
                         bindings = <&caps_word>;
+                        layers = <DEFAULT>;
                 };
                 combo_game {
                         timeout-ms = <30>;
                         key-positions = <36 41>;
                         bindings = <&tog GAME>;
+                        layers = <DEFAULT GAME>;
                 };
         };
 
