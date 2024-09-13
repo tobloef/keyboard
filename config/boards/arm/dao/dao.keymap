@@ -60,7 +60,7 @@
                 unda: underscore_dash {
                         compatible = "zmk,behavior-mod-morph";
                         #binding-cells = <0>;
-                        bindings = <&kp UNDER>, <&kp KP_MINUS>;
+                        bindings = <&kp UNDER>, <&kp MINUS>;
                         mods = <(MOD_LSFT)>;
                 };
                 para: parantheses {
@@ -158,12 +158,6 @@
                         bindings = <&unda>;
                         layers = <DEFAULT>;
                 };
-                combo_caps_word {
-                        timeout-ms = <30>;
-                        key-positions = <32 33>;
-                        bindings = <&caps_word>;
-                        layers = <DEFAULT>;
-                };
                 combo_game {
                         timeout-ms = <30>;
                         key-positions = <36 41>;
@@ -178,7 +172,7 @@
                 default_layer {
                         bindings = <
 &kp ESC        &kp Q         &kp W         &kp F         &kp P         &kp G                   &kp J           &kp L         &kp U          &kp Y         &qout         &kp LC(P)
-&lpht LWIN F12 &lpht LCMD A  &lpht LALT R  &lpht LCTRL S &lpht LSHFT T &kp D                   &kp H           &rpht LSHFT N &rpht LCTRL E  &rpht LALT I  &rpht LCMD O  &rpht LWIN LC(C)
+&kp F12        &lpht LCMD A  &lpht LALT R  &lpht LCTRL S &lpht LSHFT T &kp D                   &kp H           &rpht LSHFT N &rpht LCTRL E  &rpht LALT I  &rpht LCMD O  &kp LC(C)
 &kp GRAVE      &kp Z         &kp X         &kp C         &kp V         &kp B                   &kp K           &kp M         &doco          &cose         &quex         &kp LC(Z)
                                            &laycap NAV 0 &kp TAB       &bade                   &kp SPACE       &kp RET       &mo NUM
                         >;
@@ -187,9 +181,9 @@
                 nav_layer {
                         bindings = <
 &none          &none         &none         &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1             &kp STAR       &kp C_PP      &kp C_VOL_DN   &kp C_VOL_UP  &kp C_MUTE    &kp AMPS
-&trans         &trans        &trans        &trans        &trans        &trans                   &kp PIPE       &kp LEFT      &kp RIGHT      &kp DOWN      &kp UP        &kp CARET
+&none          &trans        &trans        &trans        &trans        &trans                   &kp PIPE       &kp LEFT      &kp RIGHT      &kp DOWN      &kp UP        &kp CARET
 &none          &none         &none         &none         &none         &none                    &kp AT         &kp EQUAL     &kp HASH       &kp DLLR      &kp PRCNT     &kp TILDE
-                                           &none         &kp TAB       &bade                    &kp SPACE      &kp RET       &none
+                                           &none         &trans        &trans                   &trans         &trans        &none
                         >;
                 };
 
@@ -198,7 +192,7 @@
 &none          &kp F1        &kp F2        &kp F3         &kp F4         &kp F5                  &kp F6        &kp F7         &kp F8         &kp F9        &kp F10       &kp F11
 &kp LWIN       &lpht LCMD N1 &lpht LALT N2 &lpht LCTRL N3 &lpht LSHFT N4 &kp N5                  &kp N6        &rpht LSHFT N7 &rpht LCTRL N8 &rpht LALT N9 &rpht LCMD N0 &kp LWIN
 &none          &none         &none         &none          &none          &none                   &none         &none          &none          &none         &none         &none
-                                           &none          &kp TAB        &bade                   &kp SPACE     &kp RET        &none
+                                           &none          &trans         &trans                  &trans        &trans         &none
                         >;
                 };
 
