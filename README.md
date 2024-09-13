@@ -5,4 +5,5 @@ ZMK firmware for my split ergo keyboard. Custom Colemak based layout.
 
 ## Layout
 
-![layout](https://github.com/user-attachments/assets/d4a10c3e-e36a-4668-9606-875cc18c4234)
+![layout](https://github.com/user-attachments/assets/b6a2a573-4992-4216-a769-b2bc65d925f6)
+
