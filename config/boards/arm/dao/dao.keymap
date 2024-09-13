@@ -84,7 +84,7 @@
                 sqbr: square_brackets {
                         compatible = "zmk,behavior-mod-morph";
                         #binding-cells = <0>;
-                        bindings = <&kpLBKT>, <&kp RBKT>;
+                        bindings = <&kp LBKT>, <&kp RBKT>;
                         mods = <(MOD_LSFT)>;
                 };
                 slas: slashes {
