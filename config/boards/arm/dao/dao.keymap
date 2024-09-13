@@ -134,6 +134,12 @@
                         bindings = <&sqbr>;
                         layers = <DEFAULT>;
                 };
+                combo_dash {
+                        timeout-ms = <30>;
+                        key-positions = <7 8>;
+                        bindings = <&kp MINUS>;
+                        layers = <DEFAULT>;
+                };
                 combo_slas {
                         timeout-ms = <30>;
                         key-positions = <8 9>;
@@ -152,10 +158,10 @@
                         bindings = <&cubr>;
                         layers = <DEFAULT>;
                 };
-                combo_unda {
+                combo_unde {
                         timeout-ms = <30>;
                         key-positions = <31 32>;
-                        bindings = <&unda>;
+                        bindings = <&kp UNDER>;
                         layers = <DEFAULT>;
                 };
                 combo_game {
@@ -171,7 +177,7 @@
 
                 default_layer {
                         bindings = <
-&kp ESC        &kp Q         &kp W         &kp F         &kp P         &kp G                   &kp J           &kp L         &kp U          &kp Y         &qout         &kp LC(P)
+&kp ESC        &kp Q         &kp W         &kp F         &kp P         &kp G                   &kp J           &kp L         &kp U          &kp Y         &qout         &kp LC(V)
 &kp F12        &lpht LCMD A  &lpht LALT R  &lpht LCTRL S &lpht LSHFT T &kp D                   &kp H           &rpht LSHFT N &rpht LCTRL E  &rpht LALT I  &rpht LCMD O  &kp LC(C)
 &kp GRAVE      &kp Z         &kp X         &kp C         &kp V         &kp B                   &kp K           &kp M         &doco          &cose         &quex         &kp LC(Z)
                                            &laycap NAV 0 &kp TAB       &bade                   &kp SPACE       &kp RET       &mo NUM
