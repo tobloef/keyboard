@@ -140,10 +140,10 @@
                         bindings = <&kp MINUS>;
                         layers = <DEFAULT>;
                 };
-                combo_slas {
+                combo_qout {
                         timeout-ms = <30>;
                         key-positions = <8 9>;
-                        bindings = <&slas>;
+                        bindings = <&qout>;
                         layers = <DEFAULT>;
                 };
                 combo_anbr {
@@ -177,7 +177,7 @@
 
                 default_layer {
                         bindings = <
-&kp LC(V)      &kp Q         &kp W         &kp F         &kp P         &kp G                   &kp J           &kp L         &kp U          &kp Y         &qout         &kp ESC  
+&kp LC(V)      &kp Q         &kp W         &kp F         &kp P         &kp G                   &kp J           &kp L         &kp U          &kp Y         &slas         &kp ESC  
 &kp LC(C)      &kp A         &lpht LALT R  &lpht LCTRL S &lpht LSHFT T &kp D                   &kp H           &rpht LSHFT N &rpht LCTRL E  &rpht LALT I  &kp O         &kp F12  
 &kp LC(Z)      &kp Z         &kp X         &kp C         &kp V         &kp B                   &kp K           &kp M         &doco          &cose         &quex         &kp GRAVE
                                            &laycap NAV 0 &kp TAB       &bade                   &kp SPACE       &kp RET       &mo NUM
