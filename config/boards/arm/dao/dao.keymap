@@ -164,6 +164,12 @@
                         bindings = <&kp UNDER>;
                         layers = <DEFAULT>;
                 };
+                combo_plus {
+                        timeout-ms = <30>;
+                        key-positions = <32 33>;
+                        bindings = <&kp PLUS>;
+                        layers = <DEFAULT>;
+                };
                 combo_game {
                         timeout-ms = <30>;
                         key-positions = <36 41>;
