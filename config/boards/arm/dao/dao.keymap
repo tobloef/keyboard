@@ -72,7 +72,7 @@
                 qout: qoutes {
                         compatible = "zmk,behavior-mod-morph";
                         #binding-cells = <0>;
-                        bindings = <&kp DQT>, <&kp SQT>;
+                        bindings = <&kp SQT>, <&kp DQT>;
                         mods = <(MOD_LSFT)>;
                 };
                 cubr: curly_braces {
