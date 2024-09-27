@@ -123,14 +123,14 @@
         combos {
                 compatible = "zmk,combos";
                 combo_para {
-                        timeout-ms = <30>;
+                        timeout-ms = <50>;
                         key-positions = <2 3>;
                         bindings = <&para>;
                         layers = <DEFAULT>;
                 };
                 combo_sqbr {
                         timeout-ms = <30>;
-                        key-positions = <3 4>;
+                        key-positions = <27 28>;
                         bindings = <&sqbr>;
                         layers = <DEFAULT>;
                 };
@@ -154,7 +154,7 @@
                 };
                 combo_cubr {
                         timeout-ms = <30>;
-                        key-positions = <27 28>;
+                        key-positions = <3 4>;
                         bindings = <&cubr>;
                         layers = <DEFAULT>;
                 };
@@ -183,18 +183,18 @@
 
                 default_layer {
                         bindings = <
-&kp LC(V)      &kp Q         &kp W         &kp F         &kp P         &kp G                   &kp J           &kp L         &kp U          &kp Y         &slas         &kp ESC  
-&kp LC(C)      &kp A         &lpht LALT R  &lpht LCTRL S &lpht LSHFT T &kp D                   &kp H           &rpht LSHFT N &rpht LCTRL E  &rpht LALT I  &kp O         &kp F12  
-&kp LC(Z)      &kp Z         &kp X         &kp C         &kp V         &kp B                   &kp K           &kp M         &doco          &cose         &quex         &kp GRAVE
+&kp ESC        &kp Q         &kp W         &kp F         &kp P         &kp G                   &kp J           &kp L         &kp U          &kp Y         &slas         &kp LA(SQT)
+&kp F12        &kp A         &lpht LALT R  &lpht LCTRL S &lpht LSHFT T &kp D                   &kp H           &rpht LSHFT N &rpht LCTRL E  &rpht LALT I  &kp O         &kp LA(A)
+&kp GRAVE      &kp Z         &kp X         &kp C         &kp V         &kp B                   &kp K           &kp M         &doco          &cose         &quex         &kp LA(O)
                                            &laycap NAV 0 &kp TAB       &bade                   &kp SPACE       &kp RET       &mo NUM
                         >;
                 };
 
                 nav_layer {
                         bindings = <
-&none          &none         &none         &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1             &kp STAR       &kp C_PP      &kp C_VOL_DN   &kp C_VOL_UP  &kp C_MUTE    &kp AMPS
-&none          &trans        &trans        &trans        &trans        &trans                   &kp PIPE       &kp LEFT      &kp RIGHT      &kp DOWN      &kp UP        &kp CARET
-&none          &none         &none         &none         &none         &none                    &kp AT         &kp EQUAL     &kp HASH       &kp DLLR      &kp PRCNT     &kp TILDE
+&kp LC(V)      &none         &none         &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1             &kp STAR       &kp C_PP      &kp C_VOL_DN   &kp C_VOL_UP  &kp C_NEXT    &kp AMPS
+&kp LC(C)      &trans        &trans        &trans        &trans        &trans                   &kp PIPE       &kp LEFT      &kp RIGHT      &kp DOWN      &kp UP        &kp CARET
+&kp LC(Z)      &none         &none         &none         &none         &none                    &kp AT         &kp EQUAL     &kp HASH       &kp DLLR      &kp PRCNT     &kp TILDE
                                            &none         &trans        &trans                   &trans         &trans        &none
                         >;
                 };
