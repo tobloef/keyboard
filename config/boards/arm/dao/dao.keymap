@@ -136,7 +136,7 @@
                 };
                 combo_dash {
                         timeout-ms = <30>;
-                        key-positions = <7 8>;
+                        key-positions = <7 19>;
                         bindings = <&kp MINUS>;
                         layers = <DEFAULT>;
                 };
@@ -154,7 +154,7 @@
                 };
                 combo_cubr {
                         timeout-ms = <30>;
-                        key-positions = <3 4>;
+                        key-positions = <3 16>;
                         bindings = <&cubr>;
                         layers = <DEFAULT>;
                 };
