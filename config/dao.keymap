@@ -209,6 +209,20 @@
             bindings = <&tog GAME>;
             layers = <DEFAULT GAME>;
         };
+
+        combo_jsdoc {
+            bindings = <&jsdoc>;
+            key-positions = <19 9>;
+        };
+    };
+
+    macros {
+        jsdoc: jsdoc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp FSLH &kp STAR &kp STAR &kp SPACE>;
+            label = "JSDOC";
+        };
     };
 
     keymap {
