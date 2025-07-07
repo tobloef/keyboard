@@ -212,6 +212,16 @@
 
         combo_jsdoc {
             bindings = <&jsdoc>;
+            key-positions = <8 3>;
+        };
+
+        combo_home {
+            bindings = <&kp HOME>;
+            key-positions = <2 16>;
+        };
+
+        combo_end {
+            bindings = <&kp END>;
             key-positions = <19 9>;
         };
     };
