@@ -53,6 +53,7 @@
             bindings = <&kp DOT>, <&kp COLON>;
 
             mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_RSFT)>;
         };
 
         cose: comma_semicolon {
