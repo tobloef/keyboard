@@ -241,9 +241,9 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q  &kp W         &kp F          &kp P          &kp G  &kp J      &kp L          &kp U          &kp Y         &slas  &kp LA(SQT)
-&kp F12    &kp A  &lpht LALT R  &lpht LCTRL S  &lpht LSHFT T  &kp D  &kp H      &rpht LSHFT N  &rpht LCTRL E  &rpht LALT I  &kp O  &kp LA(A)
-&kp GRAVE  &kp Z  &kp X         &kp C          &kp V          &kp B  &kp K      &kp M          &doco          &cose         &quex  &kp LA(O)
+&kp ESC    &kp Q  &kp W         &kp F          &kp P          &kp G  &kp J      &kp L          &kp U          &kp Y         &slas  &kp LA(A)
+&kp F12    &kp A  &lpht LALT R  &lpht LCTRL S  &lpht LSHFT T  &kp D  &kp H      &rpht LSHFT N  &rpht LCTRL E  &rpht LALT I  &kp O  &kp LA(O)
+&kp GRAVE  &kp Z  &kp X         &kp C          &kp V          &kp B  &kp K      &kp M          &doco          &cose         &quex  &kp LA(SQT)
                                 &laycap NAV 0  &kp TAB        &bade  &kp SPACE  &kp RET        &mo NUM
             >;
         };
